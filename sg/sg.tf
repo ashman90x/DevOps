@@ -21,6 +21,6 @@ resource "aws_security_group" "allow_tls" {
   }
 
   tags = {
-    Name = "allow_tls-1"
+    Name = "allow_tls"
   }
 }

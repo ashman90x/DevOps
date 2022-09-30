@@ -6,5 +6,6 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "netflix-web-server"
+    Environment = "Dev"
   }
 }
